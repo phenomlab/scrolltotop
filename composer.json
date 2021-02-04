@@ -1,8 +1,8 @@
 {
-    "name": "phenomlab/fancybox",
+    "name": "phenomlab/scrolltotop",
     "description": "Enables all images to be presented in Fancybox",
     "type": "flarum-extension",
-    "keywords": ["images", "fancybox"],
+    "keywords": ["UI", "scroll"],
     "license": "MIT",
     "authors": [
         {
@@ -12,15 +12,15 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/phenomlab/fancybox/issues",
-        "source": "https://github.com/phenomlab/fancybox",
+        "issues": "https://github.com/phenomlab/scrolltotop/issues",
+        "source": "https://github.com/phenomlab/scrolltotop",
         "forum": "https://discuss.flarum.org"
     },
     "homepage": "https://paypal.me",
     "funding": [
         {
             "type": "website",
-            "url": "/phenomlab"
+            "url": "https:///phenomlab.com"
         }
     ],
     "require": {
@@ -28,15 +28,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Phenomlan\\Fancybox\\": "src/"
+            "Phenomlab\\scrolltotop\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Fancybox",
+            "title": "Scroll to Top",
             "category": "feature",
             "icon": {
-                "name": "fas fa-images",
+                "name": "fas fa-chevron-up",
                 "backgroundColor": "#666",
                 "color": "#ffffff"
             }
