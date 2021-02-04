@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phenomlab\\scrolltotop\\": "src/"
+            "Phenomlab\\Scrolltotop\\": "src/"
         }
     },
     "extra": {
