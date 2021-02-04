@@ -11,17 +11,21 @@
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
+use s9e\TextFormatter\Configurator;
 
 return [
     (new Extend\Frontend('forum'))
+	->css(__DIR__ . '/resources/css/style.css')
         ->content(function (Document $document) {
-            $document->foot[] = <<<HTML
-<script>
- flarum.core.compat.extend.extend(flarum.core.compat['components/CommentPost'].prototype, 'oncreate', function(output, vnode) {
-  const self = this;
+$document->body[] = <<<HTML
+			<style>
 
-  <a id="btt"><i class="fal fa-chevron-up"></i></a>
-  <script>
+</style>
+
+HTML;
+            $document->foot[] = <<<HTML
+<a id="btt"><i class="fas fa-chevron-up"></i></a>
+<script>
   var btn = $('#btt');
   $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
@@ -30,13 +34,10 @@ return [
       btn.removeClass('show');
     }
   });
-
   btn.on('click', function(e) {
     e.preventDefault();
    $('html, body').animate({scrollTop:0}, '300');
   });
-  </script>
-});
 </script>
 HTML;
         })
