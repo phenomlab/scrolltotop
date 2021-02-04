@@ -1,6 +1,6 @@
 {
     "name": "phenomlab/scrolltotop",
-    "description": "Enables all images to be presented in Fancybox",
+    "description": "Enables a simple scroll to top button",
     "type": "flarum-extension",
     "keywords": ["UI", "scroll"],
     "license": "MIT",
