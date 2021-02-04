@@ -2,13 +2,13 @@
 A minimal no non-sense flarum extension which enables a scroll to top button
 
 ## Install
-`composer require phenomlab/scrolltoptop`
+`composer require phenomlab/scrolltotop`
 
 ## Update
-`composer update phenomlab/scrolltoptop`
+`composer update phenomlab/scrolltotop`
 
 ## Remove
-`composer remove phenomlab/scrolltoptop`
+`composer remove phenomlab/scrolltotop`
 
 ## Release
 
