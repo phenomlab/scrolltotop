@@ -1,18 +1,17 @@
-# Fancybox 🔗
-A minimal no non-sense flarum extension which enables all images to be presented in Fancybox by adding a data-fancybox attribute to all <img> tags
+# Scroll to Top 🔗
+A minimal no non-sense flarum extension which enables a scroll to top button
 
 ## Install
-`composer require phenomlab/fancybox`
+`composer require phenomlab/scrolltoptop`
 
 ## Update
-`composer update phenomlab/fancybox`
+`composer update phenomlab/scrolltoptop`
 
 ## Remove
-`composer remove phenomlab/fancybox`
+`composer remove phenomlab/scrolltoptop`
 
 ## Release
 
 0.1 - Initial release
-0.1.1 - Fixed issue with gallery view being displayed, meaning all images are cycled
-0.1.1 - Fixed issue with emoji symbols being targeted incorrectly
+
 
