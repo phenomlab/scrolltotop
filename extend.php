@@ -18,10 +18,6 @@ return [
 	->css(__DIR__ . '/resources/css/style.css')
         ->content(function (Document $document) {
 $document->body[] = <<<HTML
-			<style>
-
-</style>
-
 HTML;
             $document->foot[] = <<<HTML
 <a id="btt"><i class="fas fa-chevron-up"></i></a>
